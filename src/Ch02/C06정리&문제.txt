@@ -1,0 +1,41 @@
+정수 타입 		: byte,short,int ,long
+char 타입 	: ' ' 
+String 타입 	: " "
+실수 타입 		: double , float
+논리 타입 		: boolean
+
+
+확인 문제1
+
+정수타입 
+1byte : 
+2byte : 
+4byte : 
+8byte : 
+
+실수타입
+4byte : 
+8byte : 
+
+논리타입
+1byte :
+
+
+확인문제2
+
+맞는 코드인지 틀린 코드인지 확인 
+byte var = 200;							(	)
+char var='AB';							(	)
+char var=65;							(	)
+long var=50000000000;					(	)	
+float var = 3.14						(	)
+double var = 100.0						(	)
+String var = "나의직업은 "개발자" 입니다.";	(	)
+boolean var = 0;						(	)
+int v2 = le2;							(	)
+float =1e2f;							(	)
+
+
+
+
+
