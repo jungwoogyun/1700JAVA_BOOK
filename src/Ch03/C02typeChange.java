@@ -21,8 +21,8 @@ public class C02typeChange {
 		intval = (int)doubleval; 
 		System.out.println(intval);
 		
-		int num=129;
-		byte byteval=(byte)num;
+		int num=129;			//00000000 00000000 0000000 10000001
+		byte byteval=(byte)num; //                          10000001
 		System.out.println(num);
 		System.out.println(byteval);
 		
