@@ -99,7 +99,7 @@ public class C05자료형 {
 //		flag=false;
 
 		 
-		
+// TEST
 	}
 
 }
