@@ -11,6 +11,8 @@ public class C04ArithTypeChange {
 		
 		System.out.println("result1 : " + result1);
 		System.out.println("result2 : " + result2);
+		
+		//수정내용
 	}
 
 }
