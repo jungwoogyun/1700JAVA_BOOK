@@ -43,7 +43,14 @@ public class C05ArithTypeChange {
 		
 		System.out.println(str1+str2);
 		
-
+		System.out.println((int)Double.parseDouble("3.14"));
+		
+		String str11 = 2 + 3 + "";
+		String str22 = 2 + "" + 3;
+		String str33 = "" + 2 + 3;
+		System.out.println(str11);
+		System.out.println(str22);
+		System.out.println(str33);
 	}
 
 }
