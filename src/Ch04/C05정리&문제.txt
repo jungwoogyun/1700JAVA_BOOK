@@ -17,13 +17,13 @@ Scanner : 키보드로부터 입력받는 장치 생성에 필요한 클래스 �
 Scanner scanner = new Scanner(System.in);
 
 System.out.print("첫번째 수 : ");
-String strNum1=_____________;
+String strNum1=sc.next();
 
 System.out.print("두번째 수 : ");
-String strNum2=_____________;
+String strNum2=sc.next();
 
-int num1 = ________________;
-int num2 = ________________;
+int num1 = Integer.parseInt(strNum1);
+int num2 = Integer.parseInt(strNum2);
 
 int result = num1 + num2;
 System.out.println("덧셈 결과 : " + result);
