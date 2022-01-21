@@ -1,5 +1,7 @@
 package Ch05;
 
+import java.util.Scanner;
+
 public class C01Basic {
 
 	public static void main(String[] args) {
@@ -85,13 +87,31 @@ public class C01Basic {
 		
 		//삼항연산자(->if/switch로 대체)
 		
-		int score=70;
-		char grade = (score>90)?'A':(score>80)?'B':'C' ;
-		System.out.println("점수 : " + grade);
+//		int score=70;
+//		char grade = (score>90)?'A':(score>80)?'B':'C' ;
+//		System.out.println("점수 : " + grade);
 		
 		//문제
 		//국어/영어/수학점수를 입력받아 세수의 합이 240점이상이면 '합격'출력
 		//아니면 '불합격'을 출력하세요(삼항연산자를 사용)
+		
+		int kor,eng,mat;
+		int sum=0;
+		String result;	//결과
+		Scanner sc = new Scanner(System.in);
+		System.out.print("국영수 입력 : ");
+		kor=sc.nextInt();
+		eng=sc.nextInt();
+		mat=sc.nextInt();
+		sum = kor+eng+mat;
+		result=(sum>=240)?"합격":"불합격";
+		System.out.println("결과 : " + result);
+		
+		
+		
+		
+		
+		
 		
 		
 		
