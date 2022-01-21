@@ -59,21 +59,11 @@ public class C01Basic {
 //		System.out.println((n1<=n2)&&(n2>=n1));
 		
 		//or연산(||) 두 조건식 중 하나라도 참이면 참을 반환
-		System.out.println((n1==n2)||(n3==n4));
-		System.out.println((n1!=n2)||(n3!=n4));
-		System.out.println((n4>=n1)||(n3>=n4));
-		System.out.println((n1<=n2)||(n2>=n1));	
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+//		System.out.println((n1==n2)||(n3==n4));
+//		System.out.println((n1!=n2)||(n3!=n4));
+//		System.out.println((n4>=n1)||(n3>=n4));
+//		System.out.println((n1<=n2)||(n2>=n1));	
 		
 		
 		//05증감 연산자
@@ -92,6 +82,16 @@ public class C01Basic {
 //		System.out.println("d = " + d);
 //		System.out.println("e = " + e);
 		
+		
+		//삼항연산자(->if/switch로 대체)
+		
+		int score=70;
+		char grade = (score>90)?'A':(score>80)?'B':'C' ;
+		System.out.println("점수 : " + grade);
+		
+		//문제
+		//국어/영어/수학점수를 입력받아 세수의 합이 240점이상이면 '합격'출력
+		//아니면 '불합격'을 출력하세요(삼항연산자를 사용)
 		
 		
 		
