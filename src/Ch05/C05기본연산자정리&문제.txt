@@ -65,10 +65,10 @@ System.out.println(var4);
 [예시]
 ----------------------------
  int value = 0;
- value = value + 10; ->(   );
- value = value - 10; ->(   );
- value = value * 10; ->(   );
- value = value / 10; ->(   );
+ value = value + 10; ->(value+=10   );
+ value = value - 10; ->(value-=10   );
+ value = value * 10; ->(value*=10   );
+ value = value / 10; ->(value/=10   );
 ----------------------------
 
 
