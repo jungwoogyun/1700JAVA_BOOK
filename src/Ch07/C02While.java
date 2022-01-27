@@ -306,34 +306,34 @@ public class C02While {
 //		}
 		
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.print("높이 : " );
-		int h=sc.nextInt();
-		
-		int i=0;	//행증가
-		int j=0;	//공백
-		int k=0;	//별찍기
-		
-		while(i<=h-1)
-		{
-			//공백
-			j=0;
-			while(j<=(h-2)-i) {
-				System.out.print(" ");
-				j++;
-			}
-			//별찍기
-			k=0;
-			while(k<=2*i) {
-				System.out.print("*");
-				k++;
-			}
-			
-			
-			System.out.println();
-			i++;
-		}
-		
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("높이 : " );
+//		int h=sc.nextInt();
+//		
+//		int i=0;	//행증가
+//		int j=0;	//공백
+//		int k=0;	//별찍기
+//		
+//		while(i<=h-1)
+//		{
+//			//공백
+//			j=0;
+//			while(j<=(h-2)-i) {
+//				System.out.print(" ");
+//				j++;
+//			}
+//			//별찍기
+//			k=0;
+//			while(k<=2*i) {
+//				System.out.print("*");
+//				k++;
+//			}
+//			
+//			
+//			System.out.println();
+//			i++;
+//		}
+//		
 		
 		
 		
@@ -348,10 +348,84 @@ public class C02While {
 //		  ***
 //		   *
 		
+//		i		j(공백)		k(별)
+//		0		0-2		0-0
+//		1		0-1		0-2
+//		2		0-0		0-4
+//		3		x		0-6
+//		----------------------------------------
+//				j=0		k=0
+//				j++		k++
+//				j<=2-i	k<=2*i
+//
+//
+//		4		0-0		0-4
+//		5		0-1		0-2
+//		6		0-2		0-0
+//		----------------------------------------
+//				j=0		k=0
+//				j++		k++
+//				j<=i-4	k<=12-2*i
+				
+		
+		int i=0;//행증가
+		int j=0;//공백
+		int k=0;//별
+		
+		while(i<7) {
+			
+			if(i<4) 
+			{
+				//공백
+				j=0;
+				while(j<=2-i)
+				{
+					System.out.print(" ");
+					j++;
+				}
+				//별
+				k=0;
+				while(k<=2*i) {
+					System.out.print("*");
+					k++;
+				}
+			}
+			else 
+			{
+				//공백
+				j=0;
+				while(j<=i-4)
+				{
+					System.out.print(" ");
+					j++;
+				}
+				//별
+				k=0;
+				while(k<=12-2*i)
+				{
+					System.out.print("*");
+					k++;
+				}
+			}	
+			System.out.println();
+			i++;
+		}
 		
 		
+		//높이를 입력받아(홀수)그높이만큼의 다이아몬드별찍기
+		//높이 : 3
+		// *
+		//***
+		// *
 		
-		
+		//모래시계 찍기
+		//*******
+		// *****
+		//  ***
+		//   *
+		//  ***
+		// *****
+		//*******
 		
 		
 	
