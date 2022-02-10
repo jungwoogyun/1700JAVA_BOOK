@@ -20,6 +20,7 @@ class Animal{
 }
 class Dog extends Animal{
 	public void Sound() {System.out.println("멍멍 소리를 냅니다!");}
+	
 }
 class Cat extends Animal{
 
