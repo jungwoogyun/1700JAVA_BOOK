@@ -49,5 +49,5 @@ public class C02UpdDownCastingMain {
 			System.out.println("c : " +down.c);//확장된 멤버에 접근
 		}
 	}
-
+	
 }
